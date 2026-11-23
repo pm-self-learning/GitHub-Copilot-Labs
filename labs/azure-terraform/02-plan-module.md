@@ -1,6 +1,6 @@
 # Lab 2 - Plan an Azure Storage Terraform module
 
-**Plan Mode | 5 minutes | Prerequisite: Lab 1**
+Feature: **Plan Mode**
 
 ## Objective
 
@@ -18,7 +18,7 @@ one private Blob container.
 Requirements:
 - Use an existing Azure Resource Group; accept its name and location as inputs.
 - Accept Storage Account name, container name, and tags as configurable inputs.
-- Follow our repository custom instructions.
+- Follow the repository custom instructions.
 - Expose Storage Account ID, name, and primary Blob endpoint as outputs.
 - Include a basic usage example with placeholder values, without Azure lookups.
 - Explain the required resources, input validations, outputs, provider
@@ -38,8 +38,6 @@ How will you validate Storage Account names (3-24 lowercase letters/digits)
 and container names (3-63 lowercase letters/digits/hyphens, alphanumeric ends,
 no consecutive hyphens)? What cannot be checked offline?
 
-How are non-empty Environment, Owner, and Project tags required?
-Do not implement anything yet.
 ```
 
 ## Acceptance checkpoint
@@ -54,12 +52,11 @@ Names must be checked locally, but global account-name availability, Resource
 Group existence, permissions, actual network access, and deployment success
 cannot be proven by these labs.
 
-Review the plan in chat and explicitly approve it **only when ready for Lab 3**.
+Review the plan in chat and approve it when it looks correct.
 Do not select an implementation action during this lab. Keep the conversation
 for the next lab; if switching chats, paste the approved plan into the new chat.
 
 **Expected output:** An implementation plan in chat; no source changes.
-An optional local copy of the approved plan can be saved outside the learner
-repository. There is no separate code checkpoint to commit for this lab.
+An optional local copy of the approved plan can be saved if needed. There is no separate code checkpoint to commit for this lab.
 
 [Next: Lab 3 - Build the module](03-build-module.md)
