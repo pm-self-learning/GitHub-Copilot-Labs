@@ -81,15 +81,6 @@ the module's guard is absent. `terraform validate` is not a general evaluator
 of caller input policies: the missing-tag observation may be a static finding
 even when configuration validation succeeds.
 
-Illustrative report, **not an executed result**:
-
-| Check | Example result | Evidence type |
-| --- | --- | --- |
-| Formatting | Pass, if actually executed successfully | Command |
-| Configuration validation | Pass or diagnostic, report actual output | Command |
-| HTTPS, TLS, anonymous access | Explicit secure settings found | Static |
-| Required tags | Medium: example is missing Owner; module guard exists | Static |
-| Network access | Public access disabled; private connectivity not supplied | Static / documented limitation |
 
 Confirm the skill recommends a fix **without changing files**. Manually restore
 `Owner` and rerun the review to show the finding disappear. Do not commit the
@@ -108,5 +99,5 @@ workflow for checking them. Neither is a deterministic policy engine. For
 enforceable controls, use approved policy-as-code checks such Azure Policy alongside human review.
 
 **Expected output:** `.github/skills/azure-terraform-review/SKILL.md` and an
-evidence-backed findings report. Save the skill after restoring the example:
+evidence-backed findings report. Save the skill after restoring the example.
 
