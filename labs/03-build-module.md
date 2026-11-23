@@ -51,7 +51,7 @@ Do not run terraform plan, apply, or destroy.
 - The example supplies non-empty `Environment`, `Owner`, and `Project` tags.
 
 Disabling Shared Key access and preferring Microsoft Entra authorization are
-additional hardening choices shown in the reference solution. They do not replace
+additional hardening choices to consider. They do not replace
 RBAC or network design. A private endpoint is not created by this workshop.
 
 [Next: Lab 4 - Review Skill](04-review-skill.md)

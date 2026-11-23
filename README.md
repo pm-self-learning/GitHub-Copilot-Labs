@@ -24,9 +24,8 @@ Agent Mode, GitHub Actions, and an Agent Skill.
 
 | Lab | Capability |
 | --- | --- | 
-| [1. Define Azure Terraform standards](labs/azure-terraform/01-custom-instructions.md) | Custom Instructions |
-| [2. Design the infrastructure](labs/azure-terraform/02-plan-module.md) | Plan Mode | 
-| [3. Build the Terraform module](labs/azure-terraform/03-build-module.md) | Agent Mode | 
-| [4. Automate validation](labs/azure-terraform/04-validation-pipeline.md) | Agent Mode and GitHub Actions | 
-| [5. Create and use a review skill](labs/azure-terraform/05-review-skill.md) | Agent Skills | 
+| [1. Define Azure Terraform standards](labs/01-custom-instructions.md) | Custom Instructions |
+| [2. Design the infrastructure](labs/02-plan-module.md) | Plan Mode |
+| [3. Build the Terraform module](labs/03-build-module.md) | Agent Mode |
+| [4. Create and use a review skill](labs/04-review-skill.md) | Agent Skills |
 
