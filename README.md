@@ -13,14 +13,6 @@ You will produce shared Copilot standards, an infrastructure plan, a reusable
 module, a credential-free validation workflow, and a repeatable review skill.
 These are authoring and validation exercises, not a deployment tutorial.
 
-| Lab | Capability | 
-| --- | --- |
-| [1. Define standards](01-custom-instructions.md) | Custom Instructions | 
-| [2. Plan the module](02-plan-module.md) | Plan Mode | 
-| [3. Build the module](03-build-module.md) | Agent Mode | 
-| [4. Validate in CI](04-validation-pipeline.md) | Agent Mode | 
-| [5. Package a review workflow](05-review-skill.md) | Agent Skills | 
-
 ## Pre-requisites
 
 - Install current VS Code, Git, and Terraform CLI 1.9 or later (below 2.0).
