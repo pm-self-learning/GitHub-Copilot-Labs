@@ -1,6 +1,6 @@
 # Lab 1 - Define Azure Terraform standards
 
-**Custom Instructions | 5 minutes | Prerequisite: [setup](README.md)**
+Feature: **Custom Instructions**
 
 ## Objective
 
@@ -9,12 +9,12 @@ repeating them in every prompt.
 
 ## Steps
 
-1. Open the empty `azure-terraform-demo` workspace and Copilot Chat.
+1. Open this repo in VS Code and open `Copilot Chat`.
 2. Select **Agent** mode and submit the prompt below.
 3. Review the generated file and proposed commands before accepting changes.
 
 ```text
-Create .github/copilot-instructions.md for our Azure Terraform repository.
+Create .github/copilot-instructions.md for the repository.
 
 Define these standards:
 - Use hashicorp/azurerm with a constrained provider version. For this workshop
@@ -42,7 +42,9 @@ Create only the instructions file. Do not create Terraform resources yet.
 ## Demonstrate and check
 
 Open `.github/copilot-instructions.md`. Confirm all three mandatory tags and
-the no-deployment rule are explicit. Ask:
+the no-deployment rule are explicit. 
+
+Ask:
 
 ```text
 Summarize the repository instructions that will guide later Terraform tasks.
@@ -55,12 +57,6 @@ Instructions guide the model; they are not an enforcement mechanism.
 
 **Expected output:** `.github/copilot-instructions.md`; no Terraform files.
 
-**Checkpoint:** Save the accepted changes in your learner repository:
-
-```powershell
-git add .gitignore .github/copilot-instructions.md
-git commit -m "Lab 1: define platform standards"
-git branch lab-2-start
-```
+**Checkpoint:** Save the accepted changes in your learner repository.
 
 [Next: Lab 2 - Plan the module](02-plan-module.md)
