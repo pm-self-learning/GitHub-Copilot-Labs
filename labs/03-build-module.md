@@ -1,6 +1,6 @@
 # Lab 3 - Generate the Azure Terraform module
 
-**Agent Mode**
+Feature: **Agent Mode**
 
 ## Objective
 
