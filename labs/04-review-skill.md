@@ -1,6 +1,6 @@
 # Lab 4 - Create and use an Azure Terraform review skill
 
-**Agent Skills**
+Feature: **Agent Skills**
 
 ## Objective
 
