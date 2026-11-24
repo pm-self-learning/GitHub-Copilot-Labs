@@ -8,7 +8,7 @@ Package a repeatable, read-only review workflow that applies the platform rules.
 
 ## Step 1 - Create the skill
 
-In **Agent** mode, submit:
+1. Open a new Copilot chat window in **Interactive** Agent mode, and submit:
 
 ```text
 Create a reusable GitHub Copilot Agent Skill named azure-terraform-review at
@@ -33,10 +33,9 @@ The skill must:
    Never invent successful check results.
 
 Never deploy or modify Azure infrastructure. Never run plan, apply, or destroy.
-Do not automatically fix issues or modify source files. Explain that init may
-write .terraform directories and dependency lock files, so execution is not
-strictly filesystem-read-only. If the user forbids all file writes, skip init
-and report validation as skipped unless initialization is already available.
+Do not automatically fix issues or modify source files. 
+Do not run any shell commands.
+If the user forbids all file writes, skip init and report validation as skipped unless initialization is already available.
 Create only the skill file now; do not execute the review yet.
 ```
 
@@ -59,7 +58,7 @@ metadata writes. In Copilot Chat, type `/`, select the discovered skill, and sub
 Review modules/azure-storage and its caller in examples/basic.
 Check security, formatting, validation, naming, and tagging.
 Provide findings and recommendations with evidence.
-Do not modify source files. Local Terraform initialization metadata is allowed.
+Do not modify source files. Do not run any shell commands.   
 Do not run plan, apply, or destroy.
 ```
 

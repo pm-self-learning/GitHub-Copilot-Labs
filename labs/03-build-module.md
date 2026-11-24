@@ -9,11 +9,13 @@ standards established in Lab 1.
 
 ## Steps
 
-1. In Copilot chat, select **Agent**.
+1. In Copilot chat, in the same chat from previous lab, select **Interactive** Agent mode.
 2. Submit the following prompt.
    
 ```text
 Implement the approved Azure Storage Terraform module plan.
+
+Under a 'solution' folder, create the following structure:
 
 Create:
 - modules/azure-storage/main.tf
@@ -27,8 +29,9 @@ Ensure the example uses an existing Resource Group. Explain the module inputs,
 outputs, local validation commands, and workshop limitations in README.md.
 Use AzureRM ~> 4.50.0 consistently and Terraform >= 1.9, < 2.0.
 
-Format the Terraform code. Do not deploy any Azure resources.
-Do not run terraform plan, apply, or destroy.
+DO NOT run any shell commands.
+Do NOT deploy any Azure resources.
+Do NOT run terraform plan, apply, or destroy.
 ```
 
 3. Inspect the files generated.

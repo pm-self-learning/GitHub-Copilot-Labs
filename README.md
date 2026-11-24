@@ -15,7 +15,7 @@ These are authoring and validation exercises, not a deployment tutorial.
 
 ## Pre-requisites
 
-- Install current VS Code, Git, and Terraform CLI 1.9 or later (below 2.0).
+- Install current VS Code, Git
 
 ## Azure Terraform platform engineering labs
 

@@ -10,9 +10,10 @@ repeating them in every prompt.
 ## Steps
 
 1. Open this repo in VS Code and open `Copilot Chat`.
-2. Select **Agent** mode and submit the prompt below.
+2. Select **Interactive** Agent mode. 
+      ![alt text](imgs/interactive-mode.png)
 
-
+3. In the chat, submit the following prompt:
       ```text
       Create .github/copilot-instructions.md for the repository.
       
